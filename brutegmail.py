@@ -13,11 +13,8 @@ def restart_program():
 
 os.system("clear")
 print
-print "              ===|[ Brute Force by Deiri]|==="
+print "              ===|[ Brute Force by Deiri ]|==="
 print
-print " Данный BruteForce написан на основе Hydra. "
-print " Подбор паролей может занимать до 8 дней. "
-print " Всего паролей на данный момент - 1100390. "
 print
 print
 print "  [01] Gmail Brute Force         "    
