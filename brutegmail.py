@@ -18,10 +18,7 @@ print
 print
 print
 print
-print "    [01] Gmail Brute Force         "
-print
-print         
-print         
+print "  [01] Gmail Brute Force         "    
 print "  [00] Exit"
 print
 print
