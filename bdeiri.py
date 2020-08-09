@@ -16,14 +16,6 @@ def restart_program():
 ##############################
 
 os.system("clear")
-print "Deiri"
-print "Gmail"
-print "BruteFoce"
-print "[]xxxxx[]::::::::::::::::::::> 24-07-2017 (7:53)"
-print " [*] Author: Deiri  ---  [*] Version 1.0"
-print "c=={:::::::::::::::> Brute Force Console"
-print " [*] Brute Gmail"
-print "(}xxx{):::::::::> good luck"
 print
 print "              ===|[ Deiri Brute Force ]|==="
 print
