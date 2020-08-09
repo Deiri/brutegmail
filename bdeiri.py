@@ -16,13 +16,13 @@ def restart_program():
 ##############################
 
 os.system("clear")
-print
-print "              ===|[ Deiri Brute Force ]|==="
-print
-print " [01] Gmail Brute Force         "
-print
-print " [00] Exit"
-print
+ print
+ print "              ===|[ Deiri Brute Force ]|=== "
+ print
+ print " [01] Gmail Brute Force         "
+ print
+ print " [00] Exit"
+ print
 bhydra = raw_input("[*] B-Hydra > ")
 
 if bhydra == '0u1' or bhydra == 'u1':
