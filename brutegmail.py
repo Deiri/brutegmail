@@ -15,11 +15,11 @@ os.system("clear")
 print
 print "              ===|[ Brute Force by Deiri]|==="
 print
-print "         [01] Gmail Brute Force         "
+print "                     [01] Gmail Brute Force         "
 print         
 print         
 print "  [00] Exit"
-print, 
+print
 bhydra = raw_input("[*] B-Force > ")
 
 if bhydra == '0r1' or bhydra == '1r':
