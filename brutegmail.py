@@ -13,7 +13,8 @@ def restart_program():
 
 os.system("clear")
 print
-print "              ===|[ Brute Force by Deiri ]|==="
+print "              ===|[ Brute Force ]|==="
+print 
 print
 print
 print
